@@ -1,11 +1,11 @@
 function prime(num){
-let count=0;
+special_cod
+let counter=0;
 for(let i=1; i<=num; i++){
 if(num%i==0){
-count++
+counter++
 }
-}
-if(count==2){
+if(counter==2){
 console.log("number is prime")
 }
 else{
